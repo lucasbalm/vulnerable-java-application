@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   docker-build-push:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - name: Check out source code
         uses: actions/checkout@v4  
